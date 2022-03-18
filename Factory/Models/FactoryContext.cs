@@ -14,5 +14,5 @@ namespace Factory.Models
     {
       optionsBuilder.UseLazyLoadingProxies();
     }
-  }
+  } 
 }
