@@ -2,7 +2,9 @@
   Layout = "_Layout";
 }
 
+<div class="jumbotron">
 @model Factory.Models.Engineer
+</div>
 
 <h2>Are you sure you want to delete this Engineer?</h2>
 
@@ -12,3 +14,4 @@
   <input type="submit" value="Delete" />
 }
 @Html.ActionLink("Back to Engineer List", "Index")
+<p>@Html.ActionLink("Home", "Index", "Home")</p>

@@ -4,7 +4,9 @@
 
 @model Factory.Models.Machine
 
+<div class="jumbotron">
 <h4>Add a new machine</h4>
+</div>
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Name)
@@ -12,3 +14,4 @@
   <input type="submit" value="Add new machine" />
 }
 <p>@Html.ActionLink("Show all machines", "Index")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>

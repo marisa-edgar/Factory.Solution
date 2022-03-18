@@ -3,9 +3,9 @@
 }
 
 @model Factory.Models.Engineer
-
+<div class="jumbotron">
 <h2>Edit</h2>
-
+</div>
 <h4>Edit this Engineer: @Html.DisplayFor(model => model.Name)</h4>
 
 @using (Html.BeginForm())
@@ -20,3 +20,4 @@
 }
 
 <p>@Html.ActionLink("Back to Engineer list", "Index")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>

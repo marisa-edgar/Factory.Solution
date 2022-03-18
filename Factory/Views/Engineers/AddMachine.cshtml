@@ -4,16 +4,18 @@
 
 @model Factory.Models.Engineer
 
+<div class="jumbotron">
 <h2>Add a machine</h2>
+</div>
 
 <h4>Add a machine to this engineer: @Html.DisplayFor(model => model.Name)</h4>
 
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.EngineerId)
-
-  @Html.Label("Select machine")
+  @Html.Label("Choose Machine:")
   @Html.DropDownList("MachineId")
+  <br>
 
   <input type="submit" value="Save" />
 }
