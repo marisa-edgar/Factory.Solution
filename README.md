@@ -26,8 +26,8 @@ _A project for Epicodus using C# utilizing many-to-many relationships. The appli
 * _Requires VSCode and MySQL_
 * _clone the repository to your desktop and by entering *git clone https://github.com/marisa-edgar/Factory.Solution.git*_
 * _Navigate to the Factory production file_
-* _enter *touch appsetting.json* _
-* _within the appsetting.json add this code_
+* _enter *touch appsettings.json* _
+* _within the appsettings.json add this code_
 {
   "ConnectionStrings": {
       "DefaultConnection": "Server=localhost;Port=3306;database=DATABASE HERE;uid=USERNAME;pwd=PASSWORD;"
